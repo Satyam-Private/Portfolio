@@ -10,7 +10,7 @@ themeToggle.addEventListener("click", () => {
 
   // Update button icon & aria-pressed
   const isLight = body.classList.contains("light");
-  themeToggle.textContent = isLight ? "☀️" : "🌙";
+  themeToggle.textContent = isLight ? "🌙 Dark Mode" : "☀️ Bright Mode";
   themeToggle.setAttribute("aria-pressed", isLight);
 });
 
