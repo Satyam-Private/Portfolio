@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo"><a href="#">My Portfolio</a></h1>
+
+      <nav id="primary-navigation" class="nav" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="controls">
+        <!-- theme toggle: aria-pressed updated in JS -->
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme" aria-pressed="false" title="Toggle theme">🌙</button>
+
+        <!-- hamburger menu (visible on small screens) -->
+        <button id="menu-toggle" class="menu-toggle" aria-label="Open menu" aria-expanded="false" title="Open menu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section about">
+  <div class="container about-inner">
+    <!-- Left: Image -->
+    <div class="about-image">
+      <img src="assets\Photo_Satyam.jpg" alt="My Photo">
+    </div>
+
+    <!-- Right: Text -->
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>
+        Hello! My name is Satyam Chandrasen Patil, a passionate learner and aspiring software developer with a strong interest in web development, data science, and machine learning. Currently, I am pursuing my undergraduate studies in AI and DS  Engineering. This portfolio showcases my skills, projects, and
+        experience.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<section id = "skills" class="skills-section">
+    <h2>My Skills</h2>
+
+    <div class="skill">
+      <div class="skill-name">HTML</div>
+      <div class="progress-bar">
+        <div class="progress" data-progress="90"></div>
+      </div>
+      <div class="percentage">0%</div>
+    </div>
+
+    <div class="skill">
+      <div class="skill-name">CSS</div>
+      <div class="progress-bar">
+        <div class="progress" data-progress="80"></div>
+      </div>
+      <div class="percentage">0%</div>
+    </div>
+
+    <div class="skill">
+      <div class="skill-name">JavaScript</div>
+      <div class="progress-bar">
+        <div class="progress" data-progress="70"></div>
+      </div>
+      <div class="percentage">0%</div>
+    </div>
+
+    <div class="skill">
+      <div class="skill-name">React</div>
+      <div class="progress-bar">
+        <div class="progress" data-progress="75"></div>
+      </div>
+      <div class="percentage">0%</div>
+    </div>
+    <div class="skill">
+      <div class="skill-name">Python</div>
+      <div class="progress-bar">
+        <div class="progress" data-progress="80"></div>
+      </div>
+      <div class="percentage">0%</div>
+    </div>
+    <div class="skill">
+      <div class="skill-name">Flask</div>
+      <div class="progress-bar">
+        <div class="progress" data-progress="80"></div>
+      </div>
+      <div class="percentage">0%</div>
+    </div>
+    <div class="skill">
+      <div class="skill-name">dJango</div>
+      <div class="progress-bar">
+        <div class="progress" data-progress="70"></div>
+      </div>
+      <div class="percentage">0%</div>
+    </div>
+  </section>
+
+
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>Portfolio Website</h3> 
+            <img src="assets\my_portfolio.png " width="100%" height="auto">
+            <p>A responsive personal portfolio built with HTML, CSS, and JavaScript. It showcases my professional experience along with my skills. It also showcases my technical skills with my contact information</p> 
+            <a href="https://github.com/Satyam-Private/My-Portfolio-.git">Explore more</a>
+
+          </article>
+          <article class="project-card">
+            <h3>Smart EV Charging</h3>
+            <img src="assets\SmartCharging.png" width="100%" height="auto">
+            <p>The Smart Charging Prediction project is designed to optimize electric vehicle (EV) charging schedules using the power of machine learning and optimization techniques. With the rapid adoption of EVs, managing energy demand efficiently has become critical to avoid peak load stress on the grid and reduce charging costs for users.</p>
+            <a href="https://github.com/Satyam-Private/Charge-Prediction-Optimization.git">Explore more</a>
+          </article>
+          <article class="project-card">
+            <h3>Smart Retail insight</h3>
+            <img src="assets\smartRetailInsight.png" width="100%" height="auto">
+            <p>Smart Retail Insights is a powerful and user-friendly tool designed to help retailers analyze and visualize their sales data efficiently. By uploading CSV files containing supermarket data, you can gain valuable insights into sales trends, customer behavior, and product performance. Whether you're a small business or a large supermarket chain, this tool is here to help you make data-driven decisions.</p>
+            <a href="https://github.com/Satyam-Private/Smart_retail_insight.git">Explore more</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class = "contact">
+        <div class="mail"><p><b>Email</b>: satyampatil2024@gmail.com</p></div>
+        <div class="phone"><p><b>Phone:</b> +91 8010311712</p></div>
+        <div class="linkedIn"><p><b>LinkedIn:</b> <a href="www.linkedin.com/in/patilsatyam" target="_blank" rel="noopener">linkedin.com/in/patilsatyam</a></p></div>
+      </div> 
+      
+    <div class="quickLinks">
+        <p style="font-weight: bold;">Quick Links</p>
+        <p> <a href="#about">About Me</a></p> 
+        <p> <a href="#skills">Skills</a></p>
+        <p> <a href="#projects">Projects</a></p>
+    </div>
+    <div class="container">
+      <small><b>Developed by Satyam Patil</b></small>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
