@@ -347,10 +347,24 @@ a:visited{
 
 .grad{ 
   display: flex;
+} 
+
+
+.logo-alt{ 
+  display: none;
+}
+.light .logo-alt a{ 
+  color: #344CB7;
 }
 @media (max-width: 768px) {
   *{ 
     margin: 1%;
+  }
+  .logo{ 
+    display: none;
+  }
+  .logo-alt{ 
+    display: inline;
   }
   .about-inner {
     flex-direction: column;
