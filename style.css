@@ -358,7 +358,7 @@ a:visited{
 }
 
 .light .nav-list a{ 
-  color:#000000;
+  color: #FFFFFF;
 }
 @media (max-width: 768px) {
   *{ 
