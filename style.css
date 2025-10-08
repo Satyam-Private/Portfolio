@@ -356,6 +356,10 @@ a:visited{
 .light .logo-alt a{ 
   color: #344CB7;
 }
+
+.light .nav-list a{ 
+  color:#000000;
+}
 @media (max-width: 768px) {
   *{ 
     margin: 1%;
